@@ -1,7 +1,9 @@
 # cloudstack-vdi
 A collection of helpful scripts to manage Apache CloudStack for VDI operations.
 
-<b>IMPORTANT:</b> These scripts are made to work with the ACS Integrator API ``(Port 8096)``. 
+<b>IMPORTANT:</b> These scripts are made to work with the ACS Integrator API ``(Port 8096)``. Also, please make sure you install ``jq``.
+
+`` sudo apt-get install jq``
 
 Please make sure you specify an ``iptables`` rule for your IP address (so other people cannot access the Integrator API).
 
